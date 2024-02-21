@@ -1,0 +1,22 @@
+/* Estilo base para o select */
+select {
+  appearance: none; /* Remove o estilo padrão do sistema */
+  padding: 0.5rem 1rem; /* Adiciona espaçamento interno */
+  font-size: 1rem; /* Tamanho da fonte */
+  border: 1px solid #ccc; /* Adiciona uma borda */
+  border-radius: 4px; /* Arredonda as bordas */
+  background-color: #fff; /* Cor de fundo */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estilo para quando o select está focado */
+select:focus {
+  outline: none; /* Remove a borda de foco padrão */
+  border-color: #007bff; /* Muda a cor da borda quando focado */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Adiciona uma sombra ao redor quando focado */
+}
+
+/* Estilo para as opções do select */
+select option {
+  padding: 0.5rem; /* Adiciona espaçamento interno */
+}
